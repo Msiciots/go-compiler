@@ -6,7 +6,9 @@ A simple Go compiler. This program will generate Java assembly code from the giv
 In Linux environment, you could prepare the development tools with following commands:
 - Lexical Analyzer (Flex) and Syntax Analyzer (Bison)
   
-  `$ sudo apt-get install flex bison`
+  ```
+  $ sudo apt-get install flex bison
+  ```
 - Java Assembler (jasmin.jar) is attached.
 - Java Virtual Machine (JVM)
 
@@ -18,7 +20,9 @@ In Linux environment, you could prepare the development tools with following com
 ## Build & Run
 To build and run Go-compiler, run 'make run' inside the directory where you have the source.
 
-`$ make run`
+```
+$ make run
+```
 
 You can specify the input file on line 19 of Makefile.
 ```Makefile

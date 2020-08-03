@@ -64,3 +64,6 @@ The compiler offers basic syntax rules of Go language.
 - Handle the print and println function.
 - Handle the if, else if and else statement. 
 - Handle the for statement.
+
+## Reference
+- [The Lex & Yacc Page](http://dinosaur.compilertools.net/)

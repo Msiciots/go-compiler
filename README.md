@@ -13,6 +13,7 @@ In Linux environment, you could prepare the development tools with following com
 - Java Virtual Machine (JVM)
 
   ```
+  $ sudo add-apt-repository ppa:webupd8team/java
   $ sudo apt-get update
   $ sudo apt-get install default-jre
   $ sudo apt-get install oracle-java8-installer
